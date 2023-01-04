@@ -27,7 +27,10 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
 }
 
-mainClassName = "com.marcosflobo.Application"
+
+application {
+    mainClass.set("com.marcosflobo.Application")
+}
 java {
     sourceCompatibility = JavaVersion.toVersion('1.8')
     targetCompatibility = JavaVersion.toVersion('1.8')
