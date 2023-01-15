@@ -1,3 +1,7 @@
 micronaut:
   application:
     name: graalvmtest
+netty:
+  default:
+    allocator:
+      max-order: 3
